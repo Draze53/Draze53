@@ -37,6 +37,7 @@ public class Options implements Serializable{
 	public void setQuestion_id(int question_id) {
 		this.question_id = question_id;
 	}
+	//method
 	@Override
 	public String toString() {
 		return "Options [option_id=" + option_id + ", options=" + options + ", question_id=" + question_id + "]";
